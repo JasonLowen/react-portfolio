@@ -1,5 +1,5 @@
 import { HERO_CONTENT } from "../constants";
-import profilePic from "../assets/kevinRushProfile.png";
+import profilePic from "../assets/Nathan Jason Lowen - Latest.jpg";
 import { motion } from "framer-motion";
 
 const container = (delay) => ({
@@ -13,7 +13,7 @@ const container = (delay) => ({
 
 const Hero = () => {
   return (
-    <div className="pb-4 lg:mb-35">
+    <div className="pb-4 lg:mb-40">
       <div className="flex flex-wrap">
         <div className="w-full lg:w-1/2">
           <div className="flex flex-col items-center lg:items-start">
@@ -44,7 +44,7 @@ const Hero = () => {
           </div>
         </div>
         <div className="w-full lg:w-1/2 lg:p-8">
-          <div className="flex justify-center">
+          <div className="flex justify-center max-w-96">
             <motion.img
               variants={{
                 hidden: { x: 100, opacity: 0 },
@@ -58,6 +58,7 @@ const Hero = () => {
               whileInView="visible"
               src={profilePic}
               alt="profile"
+              className="w-500"
             />
           </div>
         </div>

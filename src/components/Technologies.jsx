@@ -1,9 +1,9 @@
-import { RiReactjsLine } from "react-icons/ri";
-import { TbBrandNextjs } from "react-icons/tb";
-import { SiMongodb } from "react-icons/si";
-import { DiRedis } from "react-icons/di";
-import { FaNodeJs } from "react-icons/fa";
-import { BiLogoPostgresql } from "react-icons/bi";
+import { RiHtml5Fill, RiCss3Fill, RiJavascriptFill, RiReactjsFill, RiTailwindCssFill } from "react-icons/ri";
+import { TbFileTypeHtml, TbFileTypeCss, TbFileTypeJs, TbBrandCpp, TbBrandTailwind, TbSql } from "react-icons/tb";
+// import { SiMongodb } from "react-icons/si";
+// import { DiRedis } from "react-icons/di";
+// import { FaNodeJs } from "react-icons/fa";
+// import { BiLogoPostgresql } from "react-icons/bi";
 import { motion } from "framer-motion";
 
 const iconVariants = (duration) => ({
@@ -40,49 +40,49 @@ const Technologies = () => {
           variants={iconVariants(2.5)}
           initial="initial"
           animate="animate"
-          className="rounded-2xl border-4 border-neutral-500 p-4"
+          className="rounded-2xl border-4 border-neutral-500 p-4 hover:bg-sky-200 hover:cursor-pointer"
         >
-          <RiReactjsLine className="text-7xl text-cyan-400" />
+          <RiHtml5Fill className="text-7xl text-orange-600"/>
         </motion.div>
         <motion.div
           variants={iconVariants(5)}
           initial="initial"
           animate="animate"
-          className="rounded-2xl border-4 border-neutral-500 p-4"
+          className="rounded-2xl border-4 border-neutral-500 p-4 hover:bg-sky-200 hover:cursor-pointer"
         >
-          <TbBrandNextjs className="text-7xl" />
+          <RiCss3Fill className="text-7xl text-blue-800"/>
         </motion.div>
         <motion.div
           variants={iconVariants(3.5)}
           initial="initial"
           animate="animate"
-          className="rounded-2xl border-4 border-neutral-500 p-4"
+          className="rounded-2xl border-4 border-neutral-500 p-4 hover:bg-sky-200 hover:cursor-pointer"
         >
-          <SiMongodb className="text-7xl text-green-500" />
+          <RiJavascriptFill className="text-7xl text-yellow-500" />
         </motion.div>
         <motion.div
-          variants={iconVariants(6)}
+          variants={iconVariants(5.2)}
           initial="initial"
           animate="animate"
-          className="rounded-2xl border-4 border-neutral-500 p-4"
+          className="rounded-2xl border-4 border-neutral-500 p-4 hover:bg-sky-200 hover:cursor-pointer"
         >
-          <DiRedis className="text-7xl text-red-700" />
+          <RiReactjsFill className="text-7xl text-cyan-400" />
         </motion.div>
         <motion.div
           variants={iconVariants(4)}
           initial="initial"
           animate="animate"
-          className="rounded-2xl border-4 border-neutral-500 p-4"
+          className="rounded-2xl border-4 border-neutral-500 p-4 hover:bg-sky-200 hover:cursor-pointer"
         >
-          <FaNodeJs className="text-7xl text-green-500" />
+          <TbSql className="text-7xl text-green-500" />
         </motion.div>
         <motion.div
           variants={iconVariants(2)}
           initial="initial"
           animate="animate"
-          className="rounded-2xl border-4 border-neutral-500 p-4"
+          className="rounded-2xl border-4 border-neutral-500 p-4 hover:bg-sky-200 hover:cursor-pointer"
         >
-          <BiLogoPostgresql className="text-7xl text-sky-700" />
+          <RiTailwindCssFill className="text-7xl text-sky-700" />
         </motion.div>
       </motion.div>
     </div>
