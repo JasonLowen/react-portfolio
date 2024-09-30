@@ -44,7 +44,7 @@ const Hero = () => {
           </div>
         </div>
         <div className="w-full lg:w-1/2 lg:p-8">
-          <div className="flex justify-center max-w-96">
+          <div className="flex justify-center">
             <motion.img
               variants={{
                 hidden: { x: 100, opacity: 0 },
@@ -58,7 +58,7 @@ const Hero = () => {
               whileInView="visible"
               src={profilePic}
               alt="profile"
-              className="w-500"
+              className="max-w-96"
             />
           </div>
         </div>

@@ -40,7 +40,7 @@ const Technologies = () => {
           variants={iconVariants(2.5)}
           initial="initial"
           animate="animate"
-          className="rounded-2xl border-4 border-neutral-500 p-4 hover:bg-sky-200 hover:cursor-pointer"
+          className="rounded-2xl border-4 border-neutral-500 p-4 hover:bg-sky-200 hover:cursor-pointer shadow-3xl hover:opacity-85 duration-200"
         >
           <RiHtml5Fill className="text-7xl text-orange-600"/>
         </motion.div>
@@ -48,7 +48,7 @@ const Technologies = () => {
           variants={iconVariants(5)}
           initial="initial"
           animate="animate"
-          className="rounded-2xl border-4 border-neutral-500 p-4 hover:bg-sky-200 hover:cursor-pointer"
+          className="rounded-2xl border-4 border-neutral-500 p-4 hover:bg-sky-200 hover:cursor-pointer shadow-4xl hover:opacity-85 duration-200"
         >
           <RiCss3Fill className="text-7xl text-blue-800"/>
         </motion.div>
@@ -56,7 +56,7 @@ const Technologies = () => {
           variants={iconVariants(3.5)}
           initial="initial"
           animate="animate"
-          className="rounded-2xl border-4 border-neutral-500 p-4 hover:bg-sky-200 hover:cursor-pointer"
+          className="rounded-2xl border-4 border-neutral-500 p-4 hover:bg-sky-200 hover:cursor-pointer shadow-5xl hover:opacity-85 duration-200"
         >
           <RiJavascriptFill className="text-7xl text-yellow-500" />
         </motion.div>
@@ -64,7 +64,7 @@ const Technologies = () => {
           variants={iconVariants(5.2)}
           initial="initial"
           animate="animate"
-          className="rounded-2xl border-4 border-neutral-500 p-4 hover:bg-sky-200 hover:cursor-pointer"
+          className="rounded-2xl border-4 border-neutral-500 p-4 hover:bg-sky-200 hover:cursor-pointer shadow-6xl hover:opacity-85 duration-200"
         >
           <RiReactjsFill className="text-7xl text-cyan-400" />
         </motion.div>
@@ -72,7 +72,7 @@ const Technologies = () => {
           variants={iconVariants(4)}
           initial="initial"
           animate="animate"
-          className="rounded-2xl border-4 border-neutral-500 p-4 hover:bg-sky-200 hover:cursor-pointer"
+          className="rounded-2xl border-4 border-neutral-500 p-4 hover:bg-sky-200 hover:cursor-pointer shadow-7xl hover:opacity-85 duration-200"
         >
           <TbSql className="text-7xl text-green-500" />
         </motion.div>
@@ -80,7 +80,7 @@ const Technologies = () => {
           variants={iconVariants(2)}
           initial="initial"
           animate="animate"
-          className="rounded-2xl border-4 border-neutral-500 p-4 hover:bg-sky-200 hover:cursor-pointer"
+          className="rounded-2xl border-4 border-neutral-500 p-4 hover:bg-sky-200 hover:cursor-pointer shadow-8xl hover:opacity-85 duration-200"
         >
           <RiTailwindCssFill className="text-7xl text-sky-700" />
         </motion.div>
