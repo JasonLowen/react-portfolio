@@ -1,10 +1,10 @@
-import aboutImg from "../assets/about.jpg";
+import aboutImg from "../assets/nathanJL-about.png";
 import { ABOUT_TEXT } from "../constants";
 import { motion } from "framer-motion";
 
 const About = () => {
   return (
-    <div className="pb-4">
+    <div className="pb-4 mb-40">
       <h2 className="my-20 text-center text-4xl">
         About <span className="text-neutral-500"> Me</span>{" "}
       </h2>
@@ -16,7 +16,7 @@ const About = () => {
           className="w-full lg:w-1/2 lg:p-8"
         >
           <div className="flex items-center justify-center">
-            <img className="rounded-2xl" src={aboutImg} alt="about" />
+            <img className="rounded-2xl max-w-lg" src={aboutImg} alt="about" />
           </div>
         </motion.div>
         <motion.div

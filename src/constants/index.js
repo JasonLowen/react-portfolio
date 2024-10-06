@@ -1,71 +1,54 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import project1 from "../assets/projects/project1.png";
+import project2 from "../assets/projects/project2.png";
+import project3 from "../assets/projects/project3.png";
+import project4 from "../assets/projects/project4.png";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am a passionate full stack developer with a knack for developing a functional and responsive web application. I mainly develop the UI/UX for the web application and also occasionally do some bugfixing using technologies such as HTML, CSS, and React Typescript for the Frontend side, as well as technologies such as C# and CosmosDB for the Backend side.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am currently studying as a dedicated Computer Science college student in Bina Nusantara University, committed to learning new skills and gain experience to improve myself better. I am also currently working at the Bina Nusantara IT Division company as a developer associate member. I am able to cooperate and work effectively in team projects to accomplishing the team's shared goal. Enthusiastic to learn new skills and make more projects in the web development industry.`;
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
-  },
-  {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
-  },
-  {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    year: "2024 - Present",
+    role: "Associate Member",
+    company: "IT Division Bina Nusantara",
+    description: `Contribute in developing web application related to the campus management system such as Academic Services and Thesis App using mainly React Typescript, C#, and CosmosDB. Other than developing the web application, I occasionally do some bugfixing whenever a case happens.`,
+    technologies: ["HTML", "CSS", "Typescript", "React", "CosmosDB", "C#"],
   },
 ];
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Algorithm and Programming - Assurance of Learning",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "A project where the program read the data from an excel file and prompts the user to input a command from the choice provided. The command executed by the program varies depending on the choice the user made, such as displaying all the location and frequency of those locations, displaying all the prices and the average value, and other similar commands.",
+    technologies: ["C"],
+    projectLink: "https://github.com/JasonLowen/AOL-Algoprog",
   },
   {
-    title: "Task Management App",
+    title: "Project Human Computer Interaction - Guarjian",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "A project where students were tasked to make an E-Commerce website called Guarjian, which sells health and beauty products online. The website consists of 5 main pages, which are the Home Page, Promotion Page, Product Page, About Us Page, and Contact Us Page. Before making the website with HTML, students need to design the UI of Guarjian using figma to have a clearer idea about how to make it.",
+    technologies: ["HTML", "CSS", "Javascript", "Figma"],
+    projectLink: "https://github.com/JasonLowen/Project-LAB-HCI",
   },
   {
-    title: "Portfolio Website",
+    title: "IT Division Mini Project - Wearhouse",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "A mini project where IT Division Associate Member Candidates are tasked to make a website with the UI shown in the instructions. Other than the UI, the website must also have all the functionality listed on the instructions, such as adding product or category to the database, login and sign up. The framework used in the making of this website is MVC (Model, View, Controller).",
+    technologies: ["HTML", "CSS", "Javascript", "C#", "Model View Controller", "SSMS"],
+    projectLink: "https://github.com/JasonLowen/Wearhouse",
   },
   {
-    title: "Blogging Platform",
+    title: "Software Engineering Assurance of Learning - Taniboen",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "In this software engineering project, students are tasked to form a group and choose one of the following topics provided (Foods, Energy, Health, Transportation, Maritime, and so on), and then design and make a website based on the theme chosen. This project requires the use of a Version Control System platforms such as Github for the sake of development. In this project, my group decided to make a marketplace website that's focused on agriculture in general.",
+      technologies: ["HTML", "CSS", "Javascript", "C#", "Model View Controller", "SSMS"],
+      projectLink: "https://github.com/bryandersonn/TaniBoen-Backend",
   },
 ];
 

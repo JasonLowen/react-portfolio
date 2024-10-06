@@ -1,9 +1,9 @@
-import { RiHtml5Fill, RiCss3Fill, RiJavascriptFill, RiReactjsFill, RiTailwindCssFill } from "react-icons/ri";
-import { TbFileTypeHtml, TbFileTypeCss, TbFileTypeJs, TbBrandCpp, TbBrandTailwind, TbSql } from "react-icons/tb";
+import { RiHtml5Fill, RiCss3Fill, RiJavascriptFill, RiReactjsFill, RiTailwindCssFill, RiGithubFill } from "react-icons/ri";
+import { TbFileTypeHtml, TbFileTypeCss, TbFileTypeJs, TbBrandCpp, TbBrandTailwind, TbSql, TbBrandCSharp } from "react-icons/tb";
 // import { SiMongodb } from "react-icons/si";
 // import { DiRedis } from "react-icons/di";
 // import { FaNodeJs } from "react-icons/fa";
-// import { BiLogoPostgresql } from "react-icons/bi";
+import { BiLogoPostgresql } from "react-icons/bi";
 import { motion } from "framer-motion";
 
 const iconVariants = (duration) => ({
@@ -83,6 +83,22 @@ const Technologies = () => {
           className="rounded-2xl border-4 border-neutral-500 p-4 hover:bg-sky-200 hover:cursor-pointer shadow-8xl hover:opacity-85 duration-200"
         >
           <RiTailwindCssFill className="text-7xl text-sky-700" />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(1.6)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-500 p-4 hover:bg-sky-200 hover:cursor-pointer shadow-9xl hover:opacity-85 duration-200"
+        >
+          <RiGithubFill className="text-7xl"/>
+        </motion.div>
+        <motion.div
+          variants={iconVariants(1.6)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-500 p-4 hover:bg-sky-200 hover:cursor-pointer shadow-10xl hover:opacity-85 duration-200"
+        >
+          <TbBrandCSharp className="text-7xl text-purple-800"/>
         </motion.div>
       </motion.div>
     </div>

@@ -19,12 +19,12 @@ const Projects = () => {
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: -100 }}
               transition={{ duration: 1 }}
-              className="w-full lg:w-1/4"
+              className="w-full lg:w-1/2"
             >
               <img
                 src={project.image}
-                width={150}
-                height={150}
+                width={550}
+                height={550}
                 alt={project.title}
                 className="mb-6 rounded"
               />
@@ -40,11 +40,13 @@ const Projects = () => {
               {project.technologies.map((tech, index) => (
                 <span
                   key={index}
-                  className="mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900"
+                  className="mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-cyan-400"
                 >
                   {tech}
                 </span>
               ))}
+              <br /> <br />
+              <a href={project.projectLink} target="_blank" className="bg-cyan-400 rounded text-black pb-2 pt-2 pr-5 pl-5 font-bold hover:opacity-60 hover:cursor-pointer duration-150 active:opacity-40" onClick={console.log("test")}>View</a>
             </motion.div>
           </div>
         ))}
