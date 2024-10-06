@@ -47,7 +47,7 @@ export const PROJECTS = [
     image: project4,
     description:
       "In this software engineering project, students are tasked to form a group and choose one of the following topics provided (Foods, Energy, Health, Transportation, Maritime, and so on), and then design and make a website based on the theme chosen. This project requires the use of a Version Control System platforms such as Github for the sake of development. In this project, my group decided to make a marketplace website that's focused on agriculture in general.",
-      technologies: ["HTML", "CSS", "Javascript", "C#", "Model View Controller", "SSMS"],
+      technologies: ["HTML", "CSS", "Javascript", "C#", "Model View Controller", "SSMS", "Figma"],
       projectLink: "https://github.com/bryandersonn/TaniBoen-Backend",
   },
 ];
